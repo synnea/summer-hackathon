@@ -50,6 +50,9 @@ body {
    align-items: center;
    opacity: 0.8;
 }
+.carousel-image{
+   max-width: 100%;
+}
 
 
 .buying-form {
