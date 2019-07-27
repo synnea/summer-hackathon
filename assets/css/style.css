@@ -42,6 +42,11 @@ body {
    border: none;
 }
 
+.ico:hover {
+   background-color: #00000000;
+   transform: scale(1.2);
+}
+
 /* Carousel */
 .carousel-section{
    max-height: 60vh;
