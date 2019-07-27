@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+body {
+   font-family: Righteous, sans-serif;
+   background-color: #2ec0f9;
+}
+.header-box {
+   background-color: #023570;
+   padding: 1rem;
+   /justify-content: justify;/
+   overflow-y: hidden;
+}
+.park-logo{
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+}
+.social-media {
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+.collapsible-menu {
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+}
+.collapsed-menu-button {
+   background-color: #f9d800;
+   border-radius: 5px;
+   border: none;
+}
+.carousel-section{
+   max-height: 60vh;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   opacity: 0.8;
+}
+.buying-form {
+   background-color: #f9d800;
+   border-radius: 5px;
+   margin: 0;
+   padding: 0 0.5rem;
+   display: flex;
+   align-items: center;
+}
+.form-check-label {
+   font-size: 0.7rem;
+}
+@media (min-width: 767px) {
+   .collapsible-menu {
+       display: none;
+   }
+}
+@media (max-width: 767px) {
+   .menu-expanded {
+       display: none;
+   }
+}
