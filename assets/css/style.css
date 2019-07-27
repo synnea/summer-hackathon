@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
 
+/* General */
+
 html {
    scroll-behavior: smooth;
 }
@@ -9,6 +11,8 @@ body {
    font-family: Righteous, sans-serif;
    background-color: #2ec0f9;
 }
+
+/* Header/navbar */
 .header-box {
    background-color: #023570;
    padding: 1rem;
@@ -37,6 +41,8 @@ body {
    border-radius: 5px;
    border: none;
 }
+
+/* Carousel */
 .carousel-section{
    max-height: 60vh;
    overflow: hidden;
@@ -44,6 +50,8 @@ body {
    align-items: center;
    opacity: 0.8;
 }
+
+
 .buying-form {
    background-color: #f9d800;
    border-radius: 5px;
@@ -55,6 +63,8 @@ body {
 .form-check-label {
    font-size: 0.7rem;
 }
+
+/* Media queries */
 @media (min-width: 767px) {
    .collapsible-menu {
        display: none;
