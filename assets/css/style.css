@@ -171,11 +171,11 @@ img {
 }
 
 .carousel-caption h5 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .carousel-caption p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .carousel-fade .carousel-item.active {
@@ -408,9 +408,6 @@ img {
     .ccontrol {
         max-height: 50vw;
     }
-    .carousel-indicators {
-        top: 37vw;
-    }
     .carousel-inner {
         position: relative;
         width: 100%;
@@ -506,11 +503,5 @@ img {
         .carousel-item.active {
             max-height: 35vw;
         }
-        /* .carousel-inner {
-            max-height: 35vw;
-        } */
-        /* .carousel-section {
-            max-height: 35vw;
-        } */
     }
 }
