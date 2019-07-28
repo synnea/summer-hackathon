@@ -131,3 +131,17 @@ body {
 .form-check-label {
     font-size: 0.7rem;
 }
+
+/* Footer */
+
+.footer {
+    height: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  
