@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /* General */
+
+h2 {
+    font-family: Audiowide, sans-serif;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 
 html {
     scroll-behavior: smooth;
