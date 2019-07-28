@@ -165,6 +165,19 @@ img {
     width: 100%;
 }
 
+.carousel-caption {
+    font-weight: 600;
+    text-shadow: 2px 2px black
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    font-size: 1.6rem;
+}
+
 .carousel-fade .carousel-item.active {
     z-index: 1;
     opacity: 1;
@@ -187,12 +200,12 @@ img {
 /* Button Styles */
 
 .event-btn {
-margin: 2vh 2vw;
- }
+    margin: 2vh 2vw;
+}
 
- .selected {
-     background:darkblue;
- }
+.selected {
+    background: darkblue;
+}
 
 
 /* Ticket booking form */
@@ -280,7 +293,6 @@ margin: 2vh 2vw;
     .content-section {
         padding: 4rem 15vw;
     }
-    
     #iconkidsmark {
         margin-top: 0;
     }
@@ -470,12 +482,10 @@ margin: 2vh 2vw;
     .footer {
         height: auto;
     }
-
     .footer-container {
         margin: 0;
         padding: 0;
     }
-    
     .footer-content {
         display: flex;
         flex-wrap: wrap;
@@ -496,11 +506,11 @@ margin: 2vh 2vw;
         .carousel-item.active {
             max-height: 35vw;
         }
-        .carousel-inner {
+        /* .carousel-inner {
             max-height: 35vw;
-        }
-        .carousel-section {
+        } */
+        /* .carousel-section {
             max-height: 35vw;
-        }
+        } */
     }
 }
