@@ -13,7 +13,7 @@
 <body>
     <!--Header-->
     <!-- Header includes collapsible menu for small screens and regular version for medium and up-->
-    <header class="container-fluid header-box" id="headermark">
+    <header class="container-fluid header-box">
         <!--COLLAPSIBLE Menu Button-->
         <div class="collapsible-menu d-lg-none">
             <button class="navbar-toggle collapsed collapsed-menu-button" data-toggle="collapse" data-target="#navbar">
@@ -24,7 +24,7 @@
                 <ul class="nav navbar-nav">
                     <li class="btn "><a class="hvr-underline-from-left navb-link" href="#headermark">Home</a></li>
                     <li class="btn "><a class="hvr-underline-from-left navb-link" href="#aboutmark">About</a></li>
-                    <li class="btn "><a class="hvr-underline-from-left navb-link" href="#Iconmanmark">IconMan</a></li>
+                    <li class="btn "><a class="hvr-underline-from-left navb-link" href="#iconmanmark">IconMan</a></li>
                     <li class="btn "><a class="hvr-underline-from-left navb-link" href="#iconkidsmark">IconKids</a></li>
                     <li class="btn "><a class="hvr-underline-from-left navb-link" href="#pasteventsmark">Events</a></li>
                 </ul>
@@ -71,17 +71,11 @@
                     class="fab fa-pinterest-p hvr-fade ico" aria-hidden="true"></i></a>
         </div>
     </header>
-    <div class="spacer"></div>
+    <div class="spacer" id="headermark"></div>
     <!--first section carousel where we can put pictures for the park. the last item we can use to add labels or text over the image-->
     <section class="carousel-section">
         <div class="carousel-header">
             <div id="carousel-main" class="carousel-fade" data-interval="5000" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-main" data-slide-to="1"></li>
-                    <li data-target="#carousel-main" data-slide-to="2"></li>
-                    <li data-target="#carousel-main" data-slide-to="3"></li>
-                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/images/child-robot.jpg" class="img-fluid d-block cr-img" alt="Children playing with a drone">
@@ -120,6 +114,12 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-main" data-slide-to="1"></li>
+                    <li data-target="#carousel-main" data-slide-to="2"></li>
+                    <li data-target="#carousel-main" data-slide-to="3"></li>
+                </ol>
             </div>
         </div>
     </section>

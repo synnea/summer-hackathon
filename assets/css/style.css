@@ -177,6 +177,10 @@
         max-height: 50vw;
     }
     
+    .carousel-indicators {
+        top: 37vw;
+    }
+    
     .carousel-inner {
         position: relative;
         width: 100%;
