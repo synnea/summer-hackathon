@@ -232,3 +232,12 @@ img {
     align-items: center;
     text-align: center;
 }
+
+
+/*-- for screens under 767px wide --*/
+
+@media (min-width: 767px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
