@@ -35,6 +35,10 @@ body {
     z-index: 2;
 }
 
+.spacer {
+    height: 5.5rem;
+}
+
 .nav-link {
     color: white;
     padding: 0.5rem;
