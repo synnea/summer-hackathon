@@ -137,7 +137,7 @@ img {
 /* Carousel */
 
 .carousel-section {
-    max-height: 30vh;
+    max-height: 50vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -152,11 +152,13 @@ img {
     position: relative;
     width: 100%;
     overflow: hidden;
-    max-height: 30rem;
+    max-height: 50vh;
 }
 
-.carousel-image {
-    max-width: 100%;
+.cr-img {
+    max-height: 50vh;
+    margin: 0;
+    width: 100%;
 }
 
 .carousel-fade .carousel-item.active {
@@ -164,8 +166,7 @@ img {
     opacity: 1;
     display: flex;
     align-items: center;
-    min-height: 20vh;
-    max-height: 28vh;
+    max-height: 50vh;
     width: 100%;
     overflow: hidden;
 }
@@ -173,8 +174,7 @@ img {
 .carousel-item {
     display: flex;
     align-items: center;
-    min-height: 40vh;
-    max-height: 80vh;
+    max-height: 50vh;
     width: 100%;
     overflow: hidden;
 }
@@ -203,7 +203,7 @@ img {
     flex: 1;
     align-items: center;
     font-size: 1.4rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn-primary {
