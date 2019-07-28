@@ -184,8 +184,12 @@ img {
 
 /* Button Styles */
 
-.btn {
+.event-btn {
 margin: 2vh 2vw;
+ }
+
+ .selected {
+     background:darkblue;
  }
 
 
@@ -277,7 +281,11 @@ margin: 2vh 2vw;
     }
     
     .content-section {
-        padding: 4rem 2rem;
+        padding: 4rem 15vw;
+    }
+    
+    #iconkidsmark {
+        margin-top: 0;
     }
     
     .section-odd {
