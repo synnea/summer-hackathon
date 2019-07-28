@@ -186,9 +186,13 @@ img {
 
 /* Button Styles */
 
-.btn {
-    margin: 2vh 2vw;
-}
+.event-btn {
+margin: 2vh 2vw;
+ }
+
+ .selected {
+     background:darkblue;
+ }
 
 
 /* Ticket booking form */
@@ -235,6 +239,7 @@ img {
 
 .footer {
     height: auto;
+    background-color: darkblue;
 }
 
 .footer-content {
@@ -274,6 +279,10 @@ img {
     }
     .content-section {
         padding: 4rem 15vw;
+    }
+    
+    #iconkidsmark {
+        margin-top: 0;
     }
     .section-odd {
         background-color: #f8f9fae0;
@@ -461,6 +470,12 @@ img {
     .footer {
         height: auto;
     }
+
+    .footer-container {
+        margin: 0;
+        padding: 0;
+    }
+    
     .footer-content {
         display: flex;
         flex-wrap: wrap;
