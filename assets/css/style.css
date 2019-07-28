@@ -152,7 +152,7 @@ img {
     background-color: #f9d800;
     border-radius: 5px;
     margin: 0;
-    padding: 0 0.5rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
 }
@@ -163,14 +163,14 @@ img {
     width: 100%;
 }
 
-
-}
 .form-group {
     margin: 1rem;
     display: flex;
     flex: 1;
     text-align: center;
+    font-size: 1.4rem;
 }
+
 
 /* .form-group-2 {
     margin: 1rem;
@@ -178,14 +178,18 @@ img {
     flex: 2;
     text-align: center;
 } */
+
 .form-check-label {
     font-size: 0.7rem;
 }
 
+
 /* Footer */
+
 .footer {
     height: auto;
 }
+
 .footer-content {
     display: flex;
     flex-wrap: wrap;
