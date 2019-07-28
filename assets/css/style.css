@@ -41,6 +41,7 @@
     
     .hvr-fade:hover {
         color: #43c0f9;
+        background-color: transparent;
     }
     /* Header/navbar */
     
