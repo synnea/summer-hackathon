@@ -152,6 +152,10 @@
         align-items: center;
     }
     
+    .form-row {
+        width: 100%;
+    }
+    
     .form-check-label {
         font-size: 0.7rem;
     }
