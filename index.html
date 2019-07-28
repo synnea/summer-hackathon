@@ -4,7 +4,9 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        type="text/css" />
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>IconMan - The Ultimate Challenge</title>
 </head>
@@ -83,28 +85,28 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/images/child-robot.jpeg" class="d-block w-100" alt="Children playing with a drone">
+                        <img src="assets/images/child-robot.jpg" class="d-block cr-img" alt="Children playing with a drone">
                         <div class="carousel-caption">
                             <h5>Test header 5</h5>
                             <p>Test paragraph text</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/child-drone.jpeg" class="d-block w-100" alt="Children playing with a drone">
+                        <img src="assets/images/child-drone.jpg" class="d-block cr-img" alt="Children playing with a drone">
                         <div class="carousel-caption">
                             <h5>Test header 5</h5>
                             <p>Test paragraph text</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/child-robot.jpeg" class="d-block w-100" alt="Children playing with a drone">
+                        <img src="assets/images/child-robot.jpg" class="d-block cr-img" alt="Children playing with a drone">
                         <div class="carousel-caption">
                             <h5>Test header 5</h5>
                             <p>Test paragraph text</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/child-drone.jpeg" class="d-block w-100" alt="Children playing with a drone">
+                        <img src="assets/images/child-drone.jpg" class="d-block cr-img" alt="Children playing with a drone">
                         <div class="carousel-caption">
                             <h5>Test header 5</h5>
                             <p>Test paragraph text</p>
@@ -196,15 +198,32 @@
     <section class="content-section" id="iconkidsmark">
         <div>
             <p class="header-text">IconKids</p>
-            <p>The perfect place to bring your children this summer! Either if you are participating on the competitions or to give the little ones a chance to learn important skills while having fun and let off some steam with great outdoors activities.</p>
+            <p>The perfect place to bring your children this summer! Either if you are participating on the competitions
+                or to give the little ones a chance to learn important skills while having fun and let off some steam
+                with great outdoors activities.</p>
             <img src="assets/images/child-grass.jpeg" alt="Child on the grass">
-            <p>We have a great team of professionals especially trained to teach children and they will be leading the activities, guiding your little ones to knoledge and loads of fun!</p>
+            <p>We have a great team of professionals especially trained to teach children and they will be leading the
+                activities, guiding your little ones to knoledge and loads of fun!</p>
             <img src="assets/images/child-rc-robot.JPG" alt="Child playing with robot">
-            <p>The IconKids event offers the opportunity for children to join team competitions and join courses on coding, robotics and many other.</p>
+            <p>The IconKids event offers the opportunity for children to join team competitions and join courses on
+                coding, robotics and many other.</p>
         </div>
     </section>
+
+
     <!-- Past events section -->
+
+
     <section class="content-section section-odd" id="pasteventsmark">
+<h1>Image Gallery</h1>
+        <div id="lightgallery">
+            <a href="assets/images/boat_robot.jpg">
+                <img src="assets/images/boat_robot_tn.jpg" />
+            </a>
+            <a href="assets/images/child-rc-robot.JPG">
+                <img src="assets/images/child-rc-robot_tn.jpg" />
+            </a>
+        </div>
         <div>
             <p class="header-text">Past Events</p>
             <p>Last year's IconMan was an absolute success. Over 8000 people bought tickets for the event, 16 IconMan teams over the three days and this is what we have to show for it...smiles, accomplishments, fun and great projects! </p>
@@ -280,9 +299,34 @@
         </div>
 
     </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery();
+            mode: 'lg-fade';
+    cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)'; 
+    height:'100%';
+        });
+
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/dist/js/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/modules/lg-thumbnail.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/modules/lg-fullscreen.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 

@@ -137,7 +137,7 @@ img {
 /* Carousel */
 
 .carousel-section {
-    max-height: 60vh;
+    max-height: 50vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -148,19 +148,25 @@ img {
     max-height: 50rem;
 }
 
-.carousel-image {
-    max-width: 100%;
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 50vh;
 }
 
+.cr-img {
+    max-height: 50vh;
+    margin: 0;
+    width: 100%;
+}
 
-/* 
 .carousel-fade .carousel-item.active {
     z-index: 1;
     opacity: 1;
     display: flex;
     align-items: center;
-    min-height: 40vh;
-    max-height: 80vh;
+    max-height: 50vh;
     width: 100%;
     overflow: hidden;
 }
@@ -168,11 +174,10 @@ img {
 .carousel-item {
     display: flex;
     align-items: center;
-    min-height: 40vh;
-    max-height: 80vh;
+    max-height: 50vh;
     width: 100%;
     overflow: hidden;
-} */
+}
 
 
 /* Ticket booking form */
@@ -198,7 +203,7 @@ img {
     flex: 1;
     align-items: center;
     font-size: 1.4rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn-primary {
@@ -206,7 +211,7 @@ img {
     background-color: #03356f;
     padding: 0.5rem;
     font-size: 1.3rem;
-    border-radius: 20%;
+    border-radius: 10px;
     box-shadow: 3px 3px 8px 1px #000000a8;
 }
 
@@ -226,4 +231,13 @@ img {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+}
+
+
+/*-- for screens under 767px wide --*/
+
+@media (min-width: 767px) {
+    p {
+        font-size: 1.5rem;
+    }
 }
