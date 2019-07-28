@@ -41,6 +41,9 @@ body {
    border-radius: 5px;
    border: none;
 }
+.menu-expanded-row {
+   display: inline-block;
+}
 
 .ico:hover {
    background-color: #00000000;
