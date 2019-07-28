@@ -6,6 +6,7 @@
 
 h2 {
     font-family: Audiowide, sans-serif;
+    text-shadow: 2px 2px 6px #000000;
 }
 
 p {
@@ -132,16 +133,16 @@ body {
     font-size: 0.7rem;
 }
 
+
 /* Footer */
 
 .footer {
     height: auto;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-  }
-  
+}
