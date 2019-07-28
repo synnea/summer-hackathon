@@ -31,6 +31,8 @@ body {
     background-color: #023570;
     padding: 1rem;
     display: flex;
+    position: fixed;
+    z-index: 2;
 }
 
 .nav-link {
