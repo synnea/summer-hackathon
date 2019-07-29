@@ -36,8 +36,6 @@ img {
     padding: 4rem 15vw;
 }
 
-
-
 .section-odd {
     background-color: #f8f9fae0;
 }
@@ -146,13 +144,14 @@ img {
     font-weight: 600;
     text-shadow: 2px 2px black
 }
+
 .carousel-caption h5 {
     font-size: 3rem;
 }
+
 .carousel-caption p {
     font-size: 2rem;
 }
-
 
 .carousel-section {
     max-height: 50vh;
@@ -197,26 +196,34 @@ img {
     overflow: hidden;
 }
 
+.signup-carousel {
+    background-color: #f9d800;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 10px 2px black;
+}
+
 
 /* Button Styles */
 
 .event-btn {
-margin: 2vh 2vw;
- }
+    margin: 2vh 2vw;
+}
 
- .selected {
-     background: #023570;
- }
-
- /* EVENTS */
-
- .event-pic {
-     margin-left: 15%;
-     max-width: 65%;
-     margin-top: 2vh;
- }
+.selected {
+    background: #023570;
+}
 
 
+/* EVENTS */
+
+.event-pic {
+    margin-left: 15%;
+    max-width: 65%;
+    margin-top: 2vh;
+}
 
 
 /* Image Gallary */
@@ -228,22 +235,21 @@ margin: 2vh 2vw;
     border-style: none;
     vertical-align: text-top;
     display: inline-block;
- }
- 
- .imgbtn:hover {
+}
+
+.imgbtn:hover {
     border-style: solid;
     border-color: pink;
- }
- 
- .modalimg>img {
+}
+
+.modalimg>img {
     width: auto;
     height: 95%;
     left: 0;
     right: 0;
     margin: 0 auto;
     position: fixed;
- }
-
+}
 
 
 /* Ticket booking form */
@@ -290,7 +296,7 @@ margin: 2vh 2vw;
 
 .footer {
     height: auto;
-    background-color:  #023570;
+    background-color: #023570;
     color: white;
 }
 
@@ -302,8 +308,9 @@ margin: 2vh 2vw;
 }
 
 .footer-container {
-width: 100%;
+    width: 100%;
 }
+
 
 /*-- for screens under 767px wide --*/
 
@@ -332,21 +339,15 @@ width: 100%;
     img {
         max-width: 100%;
     }
-
-    
-#iconmanmark {
-    text-align: center;
-}
-
-.event-text {
-    float:clear;
-}
-
-.event-pic {
-    float: left;
-}
-
-
+    #iconmanmark {
+        text-align: center;
+    }
+    .event-text {
+        float: clear;
+    }
+    .event-pic {
+        float: left;
+    }
     #iconkidsmark {
         margin-top: 0;
     }
@@ -526,7 +527,7 @@ width: 100%;
     }
     /* IconKids */
     #iconkidsmark {
-        padding:  0;
+        padding: 0;
     }
     .intro-row {
         padding: 0 2rem;
@@ -536,12 +537,10 @@ width: 100%;
     .footer {
         height: auto;
     }
-
     .footer-container {
         margin: 0;
         padding: 0;
     }
-
     .footer-content {
         display: flex;
         flex-wrap: wrap;
@@ -560,7 +559,6 @@ width: 100%;
             width: 100%;
         }
         .carousel-item.active {
-
             max-height: 35vw;
         }
     }
