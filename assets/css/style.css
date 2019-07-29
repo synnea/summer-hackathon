@@ -36,9 +36,7 @@ img {
     padding: 4rem 15vw;
 }
 
-.event-row {
-    vh: 100vh;
-}
+
 
 .section-odd {
     background-color: #f8f9fae0;
@@ -143,6 +141,18 @@ img {
 
 
 /* Carousel */
+
+.carousel-caption {
+    font-weight: 600;
+    text-shadow: 2px 2px black
+}
+.carousel-caption h5 {
+    font-size: 3rem;
+}
+.carousel-caption p {
+    font-size: 2rem;
+}
+
 
 .carousel-section {
     max-height: 50vh;
@@ -452,9 +462,9 @@ width: 100%;
     .ccontrol {
         max-height: 50vw;
     }
-    .carousel-indicators {
+    /* .carousel-indicators {
         top: 37vw;
-    }
+    } */
     .carousel-inner {
         position: relative;
         width: 100%;
@@ -550,12 +560,7 @@ width: 100%;
             width: 100%;
         }
         .carousel-item.active {
-            max-height: 35vw;
-        }
-        .carousel-inner {
-            max-height: 35vw;
-        }
-        .carousel-section {
+
             max-height: 35vw;
         }
     }
