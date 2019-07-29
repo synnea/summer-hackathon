@@ -18,6 +18,9 @@ p {
     margin: 1rem 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Righteous, sans-serif;
@@ -495,6 +498,7 @@ width: 100%;
     .ccontrol {
         max-height: 50vw;
     }
+
     .carousel-inner {
         position: relative;
         width: 100%;
@@ -588,6 +592,7 @@ width: 100%;
             width: 100%;
         }
         .carousel-item.active {
+
             max-height: 35vw;
         }
     }
