@@ -142,7 +142,7 @@ img {
 
 .carousel-caption {
     font-weight: 600;
-    text-shadow: 2px 2px black
+    text-shadow: -2px 0px 6px black;
 }
 
 .carousel-caption h5 {
