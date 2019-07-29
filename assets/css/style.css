@@ -197,6 +197,30 @@ img {
     overflow: hidden;
 }
 
+/* Image Gallary */
+
+.imgbtn {
+    max-height: 150px;
+    height: auto;
+    position: relative;
+    border-style: none;
+    vertical-align: text-top;
+    display: inline-block;
+ }
+ 
+ .imgbtn:hover {
+    border-style: solid;
+    border-color: pink;
+ }
+ 
+ .modalimg>img {
+    width: auto;
+    height: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+ }
 
 /* Button Styles */
 
