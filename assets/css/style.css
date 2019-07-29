@@ -36,6 +36,10 @@ img {
     padding: 4rem 15vw;
 }
 
+.event-row {
+    vh: 100vh;
+}
+
 .section-odd {
     background-color: #f8f9fae0;
 }
@@ -194,6 +198,19 @@ margin: 2vh 2vw;
      background: #023570;
  }
 
+ /* EVENTS */
+
+ .event-pic {
+     margin-left: 15%;
+     max-width: 65%;
+     margin-top: 2vh;
+ }
+
+
+
+
+
+
 
 /* Ticket booking form */
 
@@ -282,9 +299,22 @@ width: 100%;
         max-width: 100%;
     }
     .content-section {
-        padding: 4rem 15vw;
+        padding: 10vw;
     }
     
+#iconmanmark {
+    text-align: center;
+}
+
+.event-text {
+    float:clear;
+}
+
+.event-pic {
+    float: left;
+}
+
+
     #iconkidsmark {
         margin-top: 0;
     }
@@ -464,9 +494,9 @@ width: 100%;
     }
     /* IconKids */
     #iconkidsmark {
-        padding: 4rem 0;
+        padding:  0;
     }
-    .intro-kids-row {
+    .intro-row {
         padding: 0 2rem;
         margin: 2rem 0;
     }
