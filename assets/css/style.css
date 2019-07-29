@@ -198,6 +198,23 @@ img {
 }
 
 
+/* ABOUT */
+
+table, th, td {
+    border: 1px solid #03356f;
+  }
+
+.table {
+    margin-left: 15%;
+
+}
+
+.table-div {
+    text-align: center;
+    padding-top: 5vh !important;
+    margin-top: 2vh !important;
+}
+
 /* Button Styles */
 
 .event-btn {
@@ -255,6 +272,11 @@ margin: 2vh 2vw;
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
+}
+
+.signupbtn {
+    background-color: #f9d800;
+    padding-bottom: 3vh;
 }
 
 .form-row {
