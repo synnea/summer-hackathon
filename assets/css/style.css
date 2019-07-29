@@ -172,12 +172,13 @@ img {
     position: relative;
     width: 100%;
     overflow: hidden;
-    /* max-height: 50vh; */
+
 }
 .cr-img {
     margin: 0;
     width: 100%;
 }
+
 .carousel-fade .carousel-item.active {
     z-index: 1;
     opacity: 1;
