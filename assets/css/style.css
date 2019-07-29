@@ -142,7 +142,8 @@ img {
 
 .carousel-caption {
     font-weight: 600;
-    text-shadow: 2px 2px black
+    text-shadow: -2px 0px 6px black;
+    margin-bottom: 4rem;
 }
 
 .carousel-caption h5 {
@@ -154,48 +155,43 @@ img {
 }
 
 .carousel-section {
-    max-height: 50vh;
+    /* max-height: 50vh; */
     overflow: hidden;
     display: flex;
     align-items: center;
-    opacity: 0.8;
+    opacity: 1;
 }
 
-.ccontrol {
-    max-height: 50rem;
-}
 
-.carousel-inner {
+/* .ccontrol {
+    /* max-height: 50rem; */
+
+
+}
+*/ .carousel-inner {
     position: relative;
     width: 100%;
     overflow: hidden;
-    max-height: 50vh;
+    /* max-height: 50vh; */
 }
-
 .cr-img {
-    max-height: 50vh;
     margin: 0;
     width: 100%;
 }
-
 .carousel-fade .carousel-item.active {
     z-index: 1;
     opacity: 1;
     display: flex;
     align-items: center;
-    max-height: 50vh;
     width: 100%;
     overflow: hidden;
 }
-
 .carousel-item {
     display: flex;
     align-items: center;
-    max-height: 50vh;
     width: 100%;
     overflow: hidden;
 }
-
 .signup-carousel {
     background-color: #f9d800;
     font-size: 2rem;
@@ -205,29 +201,22 @@ img {
     box-shadow: 2px 2px 10px 2px black;
 }
 
-
 /* Button Styles */
-
 .event-btn {
     margin: 2vh 2vw;
 }
-
 .selected {
     background: #023570;
 }
 
-
 /* EVENTS */
-
 .event-pic {
     margin-left: 15%;
     max-width: 65%;
     margin-top: 2vh;
 }
 
-
 /* Image Gallary */
-
 .imgbtn {
     max-height: 150px;
     height: auto;
@@ -236,12 +225,10 @@ img {
     vertical-align: text-top;
     display: inline-block;
 }
-
 .imgbtn:hover {
     border-style: solid;
     border-color: pink;
 }
-
 .modalimg>img {
     width: auto;
     height: 95%;
@@ -251,9 +238,7 @@ img {
     position: fixed;
 }
 
-
 /* Ticket booking form */
-
 .buying-form {
     background-color: #f9d800;
     border-radius: 5px;
@@ -261,14 +246,13 @@ img {
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
+    box-shadow: 1px 3px 8px 2px #000000cf;
 }
-
 .form-row {
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-
 .form-group {
     margin: 1rem;
     display: flex;
@@ -277,7 +261,6 @@ img {
     font-size: 1.4rem;
     justify-content: space-around;
 }
-
 .btn-primary {
     color: #fff;
     background-color: #03356f;
@@ -286,34 +269,27 @@ img {
     border-radius: 10px;
     box-shadow: 3px 3px 8px 1px #000000a8;
 }
-
 .form-check-label {
     font-size: 0.7rem;
 }
 
-
 /* Footer */
-
 .footer {
     height: auto;
     background-color: #023570;
     color: white;
 }
-
 .footer-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
-
 .footer-container {
     width: 100%;
 }
 
-
 /*-- for screens under 767px wide --*/
-
 @media (min-width: 767px) {
     p {
         font-family: Roboto, sans-serif;
@@ -321,44 +297,56 @@ img {
         /* font-weight: 600; */
         margin: 1rem 0;
     }
+    
     a:hover {
         text-decoration: none;
     }
+    
     .hvr-underline-from-left:before {
         background: #03356f;
         height: 5px;
     }
+    
     html {
         scroll-behavior: smooth;
     }
+    
     body {
         font-family: Righteous, sans-serif;
         background-color: #2ec0f9;
         text-align: center;
     }
+    
     img {
         max-width: 100%;
     }
+    
     #iconmanmark {
         text-align: center;
     }
+    
     .event-text {
         float: clear;
     }
+    
     .event-pic {
         float: left;
     }
+    
     #iconkidsmark {
         margin-top: 0;
     }
+    
     .section-odd {
         background-color: #f8f9fae0;
     }
+    
     .hvr-fade:hover {
         color: #43c0f9;
         background-color: transparent;
     }
     /* Header/navbar */
+    
     .header-box {
         background-color: #023570;
         padding: 0.8rem 1rem 0.5rem;
@@ -366,9 +354,11 @@ img {
         position: fixed;
         z-index: 2;
     }
+    
     .spacer {
-        height: 4.6rem;
+        height: 4.5rem;
     }
+    
     .navbar-collapse .navbar-show {
         top: 4.4rem;
         left: 0;
@@ -378,6 +368,7 @@ img {
         position: absolute;
         background-color: #def2facc;
     }
+    
     #navbar {
         position: absolute;
         right: 0;
@@ -386,28 +377,34 @@ img {
         left: 0;
         background-color: #def2facc;
     }
+    
     .navb-link {
         font-size: 1.7rem;
         color: #03356f;
         width: 100%;
     }
+    
     .nav-link {
         color: white;
         padding: 0.5rem;
         font-size: 1.1rem;
     }
+    
     .nav-tabs {
         border-bottom: none;
     }
+    
     .nav-tabs .nav-link {
         border: none;
         color: #ffffff;
         text-shadow: 1px 1px 5px #00000069;
     }
+    
     .nav-tabs .nav-link:hover {
         border: none;
         color: #43c0f9;
     }
+    
     .park-logo {
         font-family: Audiowide, Righteous;
         display: inline-block;
@@ -417,10 +414,12 @@ img {
         margin: 0 25px;
         flex: 1;
     }
+    
     .hvr-bob {
         color: #f9d800;
         text-shadow: 4px 4px 6px black;
     }
+    
     .social-media {
         display: inline-block;
         padding: 0;
@@ -428,71 +427,78 @@ img {
         text-align: right;
         margin-top: 0.2rem;
     }
+    
     .fab {
         color: white;
         font-size: 1.5rem;
         margin: 0.5rem;
     }
+    
     .collapsible-menu {
         display: inline-block;
         font-size: 1.8rem;
         flex: 1;
         text-align: left;
     }
+    
     .collapsed-menu-button {
         background-color: #f9d800;
         border-radius: 5px;
         border: none;
     }
+    
     .menu-expanded-row {
         display: inline-block;
         flex: 1;
     }
+    
     .ico:hover {
         background-color: #00000000;
         transform: scale(1.2);
     }
     /* Carousel */
+    
     .carousel-section {
-        max-height: 50vh;
+        /* max-height: 50vh; */
         overflow: hidden;
         display: flex;
         align-items: center;
-        opacity: 0.8;
+        opacity: 1;
     }
+    
     .ccontrol {
         max-height: 50vw;
     }
-    /* .carousel-indicators {
-        top: 37vw;
-    } */
+    
     .carousel-inner {
         position: relative;
         width: 100%;
         overflow: hidden;
-        max-height: 50vh;
+        /* max-height: 50vh; */
     }
+    
     .cr-img {
         height: auto;
         width: 100%;
     }
+    
     .carousel-fade .carousel-item.active {
         z-index: 1;
         opacity: 1;
         display: flex;
         align-items: center;
-        max-height: 50vh;
         width: 100%;
         overflow: hidden;
     }
+    
     .carousel-item {
         display: flex;
         align-items: center;
-        max-height: 50vh;
         width: 100%;
         overflow: hidden;
     }
     /* Ticket booking form */
+    
     .buying-form {
         background-color: #f9d800;
         border-radius: 5px;
@@ -500,12 +506,15 @@ img {
         padding: 0.5rem 1rem;
         display: flex;
         align-items: center;
+        box-shadow: 1px 3px 8px 2px #000000cf;
     }
+    
     .form-row {
         align-items: center;
         justify-content: space-between;
         width: 100%;
     }
+    
     .form-group {
         margin: 1rem;
         display: flex;
@@ -514,6 +523,7 @@ img {
         font-size: 1.4rem;
         justify-content: space-around;
     }
+    
     .btn-primary {
         color: #fff;
         background-color: #03356f;
@@ -522,25 +532,31 @@ img {
         border-radius: 10px;
         box-shadow: 3px 3px 8px 1px #000000a8;
     }
+    
     .form-check-label {
         font-size: 0.7rem;
     }
     /* IconKids */
+    
     #iconkidsmark {
         padding: 0;
     }
+    
     .intro-row {
         padding: 0 2rem;
         margin: 2rem 0;
     }
     /* Footer */
+    
     .footer {
         height: auto;
     }
+    
     .footer-container {
         margin: 0;
         padding: 0;
     }
+    
     .footer-content {
         display: flex;
         flex-wrap: wrap;
@@ -548,18 +564,20 @@ img {
         text-align: center;
     }
     /*-- for screens under 767px wide --*/
+    
     @media (max-width: 1024px) {
         p {
             font-size: 1.5rem;
         }
     }
+    
     @media (min-width: 767px) {
         .cr-img {
             height: auto;
             width: 100%;
         }
-        .carousel-item.active {
+        /* .carousel-item.active {
             max-height: 35vw;
-        }
+        } */
     }
 }
