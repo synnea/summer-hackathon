@@ -36,10 +36,6 @@ img {
     padding: 4rem 15vw;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> iconrina
 
 .section-odd {
     background-color: #f8f9fae0;
@@ -502,12 +498,9 @@ width: 100%;
     .ccontrol {
         max-height: 50vw;
     }
-<<<<<<< HEAD
-=======
     /* .carousel-indicators {
         top: 37vw;
     } */
->>>>>>> iconrina
     .carousel-inner {
         position: relative;
         width: 100%;
@@ -601,10 +594,6 @@ width: 100%;
             width: 100%;
         }
         .carousel-item.active {
-<<<<<<< HEAD
-=======
-
->>>>>>> iconrina
             max-height: 35vw;
         }
     }
