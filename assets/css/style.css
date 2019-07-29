@@ -36,6 +36,8 @@ img {
     padding: 4rem 15vw;
 }
 
+
+
 .section-odd {
     background-color: #f8f9fae0;
 }
@@ -140,6 +142,18 @@ img {
 
 /* Carousel */
 
+.carousel-caption {
+    font-weight: 600;
+    text-shadow: 2px 2px black
+}
+.carousel-caption h5 {
+    font-size: 3rem;
+}
+.carousel-caption p {
+    font-size: 2rem;
+}
+
+
 .carousel-section {
     max-height: 50vh;
     overflow: hidden;
@@ -165,19 +179,6 @@ img {
     width: 100%;
 }
 
-.carousel-caption {
-    font-weight: 600;
-    text-shadow: 2px 2px black
-}
-
-.carousel-caption h5 {
-    font-size: 3rem;
-}
-
-.carousel-caption p {
-    font-size: 2rem;
-}
-
 .carousel-fade .carousel-item.active {
     z-index: 1;
     opacity: 1;
@@ -200,12 +201,49 @@ img {
 /* Button Styles */
 
 .event-btn {
-    margin: 2vh 2vw;
-}
+margin: 2vh 2vw;
+ }
 
-.selected {
-    background: darkblue;
-}
+ .selected {
+     background: #023570;
+ }
+
+ /* EVENTS */
+
+ .event-pic {
+     margin-left: 15%;
+     max-width: 65%;
+     margin-top: 2vh;
+ }
+
+
+
+
+/* Image Gallary */
+
+.imgbtn {
+    max-height: 150px;
+    height: auto;
+    position: relative;
+    border-style: none;
+    vertical-align: text-top;
+    display: inline-block;
+ }
+ 
+ .imgbtn:hover {
+    border-style: solid;
+    border-color: pink;
+ }
+ 
+ .modalimg>img {
+    width: auto;
+    height: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+ }
+
 
 
 /* Ticket booking form */
@@ -252,7 +290,8 @@ img {
 
 .footer {
     height: auto;
-    background-color: darkblue;
+    background-color:  #023570;
+    color: white;
 }
 
 .footer-content {
@@ -262,6 +301,9 @@ img {
     text-align: center;
 }
 
+.footer-container {
+width: 100%;
+}
 
 /*-- for screens under 767px wide --*/
 
@@ -290,9 +332,21 @@ img {
     img {
         max-width: 100%;
     }
-    .content-section {
-        padding: 4rem 15vw;
-    }
+
+    
+#iconmanmark {
+    text-align: center;
+}
+
+.event-text {
+    float:clear;
+}
+
+.event-pic {
+    float: left;
+}
+
+
     #iconkidsmark {
         margin-top: 0;
     }
@@ -408,6 +462,9 @@ img {
     .ccontrol {
         max-height: 50vw;
     }
+    /* .carousel-indicators {
+        top: 37vw;
+    } */
     .carousel-inner {
         position: relative;
         width: 100%;
@@ -469,9 +526,9 @@ img {
     }
     /* IconKids */
     #iconkidsmark {
-        padding: 4rem 0;
+        padding:  0;
     }
-    .intro-kids-row {
+    .intro-row {
         padding: 0 2rem;
         margin: 2rem 0;
     }
@@ -479,10 +536,12 @@ img {
     .footer {
         height: auto;
     }
+
     .footer-container {
         margin: 0;
         padding: 0;
     }
+
     .footer-content {
         display: flex;
         flex-wrap: wrap;
@@ -501,6 +560,7 @@ img {
             width: 100%;
         }
         .carousel-item.active {
+
             max-height: 35vw;
         }
     }
