@@ -158,7 +158,7 @@ img {
     overflow: hidden;
     display: flex;
     align-items: center;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .ccontrol {
@@ -261,6 +261,7 @@ img {
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
+    box-shadow: 1px 3px 8px 2px #000000cf;
 }
 
 .form-row {
@@ -458,14 +459,11 @@ img {
         overflow: hidden;
         display: flex;
         align-items: center;
-        opacity: 0.8;
+        opacity: 1;
     }
     .ccontrol {
         max-height: 50vw;
     }
-    /* .carousel-indicators {
-        top: 37vw;
-    } */
     .carousel-inner {
         position: relative;
         width: 100%;
@@ -500,6 +498,7 @@ img {
         padding: 0.5rem 1rem;
         display: flex;
         align-items: center;
+        box-shadow: 1px 3px 8px 2px #000000cf;
     }
     .form-row {
         align-items: center;
